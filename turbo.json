@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "build": {
+      "inputs": ["src"],
+      "outputs": ["dist/**"]
+    },
+    "lint": {
+      "inputs": ["src", ".eslintrc.cjs"]
+    }
+  }
+}
